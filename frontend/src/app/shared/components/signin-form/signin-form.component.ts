@@ -3,8 +3,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-signin-form',
   standalone: true,
+  selector: 'app-signin-form',
   imports: [FormsModule, RouterLink],
   templateUrl: './signin-form.component.html',
   styleUrl: './signin-form.component.scss',

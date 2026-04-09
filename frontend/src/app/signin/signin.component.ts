@@ -6,8 +6,8 @@ import {
 } from '../shared/components';
 
 @Component({
-  selector: 'app-signin',
   standalone: true,
+  selector: 'app-signin',
   imports: [NavigationComponent, FooterComponent, SigninFormComponent],
   templateUrl: './signin.component.html',
   styleUrl: './signin.component.scss',

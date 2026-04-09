@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-signin-error',
   standalone: true,
+  selector: 'app-signin-error',
   imports: [],
   templateUrl: './signin-error.component.html',
-  styleUrl: './signin-error.component.scss'
+  styleUrl: './signin-error.component.scss',
 })
-export class SigninErrorComponent {
-
-}
+export class SigninErrorComponent {}
